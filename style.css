@@ -133,6 +133,20 @@ body {
 
 .ether-info {
   justify-content: space-between;
+  gap: 0.5rem;
+}
+
+@media (max-width: 20.9375rem) {
+  body {
+    text-align: center;
+  }
+  .ether-info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .user {
+    flex-direction: column;
+  }
 }
 
 .ether,
